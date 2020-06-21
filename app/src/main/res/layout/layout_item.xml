@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txt_sid"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="20173344"
+        android:textSize="20sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Pham Son"
+        android:textSize="20sp"
+        android:layout_weight="5"/>
+    <TextView
+        android:id="@+id/txt_dob"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="26/01/1999"
+        android:textSize="20sp"
+        android:layout_weight="2"/>
+</LinearLayout>

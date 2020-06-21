@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_btn_in_menu"
+        android:icon="@drawable/ic_add_white_30dp"
+        app:showAsAction="always"
+        android:title="Add"
+        android:orderInCategory="2"/>
+    <item
+            android:id="@+id/search_btn_in_menu"
+            android:icon="@drawable/ic_search_white_30dp"
+            app:showAsAction="ifRoom"
+            android:title="Search" app:actionViewClass="android.widget.SearchView"/>
+</menu>
